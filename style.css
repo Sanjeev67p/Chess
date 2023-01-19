@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
+}
+
+/*-- ---------- outer-box ---------- --*/
+
+body{
+    display: grid;
+    place-items: center;
+}
+.outer-box{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.title{
+    color: black;
+    padding: 2px;
+    text-align: center;
+}
+
+.turn{
+    background: none;
+	border: none;
+    border-radius: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin: 30px 0 0 0;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.turn:hover{
+    border: 1px;
+    background: lightgray;
+}
+
+.fa-chess{
+    font-size: 80px;
+}
+.fa-text{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.box{
+    align-items: center;
+    padding:12px;
+    font-size: 3rem;
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+
+.game{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+}
+
+@media(max-width:650px){
+    .box{
+        padding:4px;
+        height: 40px;
+        width: 40px;
+        display: grid;
+        font-size: 2rem;
+    }
+    
+    .game{
+        padding-top: 60px;
+        grid-template-columns: repeat(8, 40px);
+        justify-content: center;
+    }
+    .title{
+        margin: 40px 0;
+    }
+    .fa-chess{
+        font-size: 50px;
+    }
+    .fa-text{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0 20px;
+    }
+    .turn{
+        border-radius: 2.5px;
+        margin: 16px 0 0 0;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.5s;
+    }
+
+    .turn:hover{
+        background-color: lightgrey;
+    }
+    .outer-box{
+        width: 100vw;
+    }
+}
