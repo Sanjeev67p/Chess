@@ -19,7 +19,9 @@ body{
     padding: 2px;
     text-align: center;
 }
-
+.fa-solid{
+    padding: 0;
+}
 .turn{
     background: none;
 	border: none;
@@ -60,13 +62,18 @@ body{
     font-size: 25px;
     position: absolute;
     bottom: 5px;
-    left: -30px;
+    left: -35px;
+    right: 95.367px;
 }
+#box-row i.e3{
+    margin-left: -3px;
+}
+
 
 #box-column{
     font-size: 25px;
     position: absolute;
-    bottom: -40px;
+    bottom: -45px;
     right: 5px;
 }
 
@@ -114,19 +121,19 @@ body{
         justify-content: center;
         border:0;
     }
-
-    #box-row{
-        font-size: 15px;
-        left: -14px;
-        bottom: 3px;
-    }
-    
     #box-column{
-        font-size: 15px;
-        bottom: -20px;
+        font-size: 13px;
+        bottom: -23px;
         right: 3px;
     }
 
+    #box-row{
+        font-size: 13px;
+        left: -20px;
+        bottom: 3px;
+        right: 47.8667px;
+    }
+    
     .title{
         margin: 40px 0;
     }
@@ -155,5 +162,8 @@ body{
     }
     .outer-box{
         width: 100vw;
+    }
+    #box-row i.e3{
+        margin-left:0;
     }
 }
