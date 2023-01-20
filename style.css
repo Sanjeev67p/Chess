@@ -5,8 +5,6 @@
     font-family: cera-round-pro, "Helvetica Neue", "Helvetica", "Arial", sans-serif;;
 }
 
-/*-- ---------- outer-box ---------- --*/
-
 body{
     display: grid;
     place-items: center;
@@ -86,6 +84,16 @@ body{
     background-color: #fff;
 }
 
+.fa-chess{
+    font-size: 80px;
+}
+
+.fa-text{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
 @media(max-width:760px){
     .box{
         padding:4px;
@@ -115,6 +123,16 @@ body{
 
     .title{
         margin: 40px 0;
+    }
+
+    .fa-chess{
+        font-size: 50px;
+    }
+
+    .fa-text{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0 20px;
     }
     
     .turn{
