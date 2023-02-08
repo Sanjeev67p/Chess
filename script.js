@@ -1,5 +1,5 @@
 let id0= document.querySelectorAll(".box")
-let pawn = document.querySelectorAll(".fa-chess-pawn");
+let pawn = document.querySelector(".fa-chess-pawn");
 
 pawn.addEventListener("click", oppawn);
 
