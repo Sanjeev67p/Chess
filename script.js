@@ -1,12 +1,10 @@
 let id0= document.querySelectorAll(".box")
-let pawn = document.querySelector(".fa-chess-pawn");
+let pawn = document.querySelectorAll(".fa-chess-pawn");
 
 pawn.addEventListener("click", oppawn);
 
-function oppawn(){
-    if(id0.id == "9"){
-        const element = document.getElementById("9")
-        element.remove();
-    }
-
+function oppawn(event){
+    // if(event.target.classList == "fa-chess-pawn"){
+        console.log(event.target.classList)
+    // }
 }
